@@ -142,3 +142,26 @@ header {
 .child:hover .label {
     display: block;
 } */
+
+
+/* Tablet view: màn hình từ 772px */
+@media screen and (min-width: 772px) {
+    div {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    div img {
+        max-height: 30vh;
+        width: 150px;
+        height: auto;
+    }
+}
+
+/* Large screen view: màn hình từ 998px */
+@media screen and (min-width: 998px) {
+    div {
+        width: 30%;
+    }
+}
